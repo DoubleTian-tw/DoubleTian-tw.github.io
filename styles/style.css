@@ -1,0 +1,38 @@
+/* p{
+    color: red;
+    width: 50%;
+    border: 0.5px solid black;
+}
+li{
+    color: rgb(250, 29, 102);
+}
+*/
+html{
+    font-size: 10px;
+    font-family: placeholder;
+    background-color: #43a4ff;    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding:20px 0;
+    color:#278367;
+    text-shadow: 3px 3px 1px rgb(44, 44, 44); /*位移X 位移Y 模糊半徑 顏色*/
+}
+p,li{
+    font-size:16px;
+    line-height: 2;
+    letter-spacing:1px;
+}
+body{
+    width: 600px;
+    margin: 0 auto; /*1.上下 2.左右*/
+    background-color: #ffffff;
+    padding:10px 20px 20px 50px; /*top right btm left*/
+    border: 5px double gray;
+}
+img{
+    display: block;
+    margin: 0 auto;
+} 
