@@ -3,30 +3,79 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tian Profile</title>
+    <meta name="description" content="田的自我介紹網站">
+    <meta name="keywords" content="自我介紹">
+    <!-- <meta charset="ISO-8859-1"> 日語系會發生錯誤 -->
+    <title>田的自我介紹網站</title>
 </head>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="styles/style.css" type="text/css">
-
+<link rel="stylesheet" href="styles/slide_img.css" type="text/css">
+<link rel="shortcut icon" href="images/favicon-logo-2.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon-logo-2.ico" type="image/x-icon">
 <body>
-    <h1>Hi,I'm Tian.</br>
-        Welcome to my home.
-    </h1>
-    <img src="images/me.jpg" alt="This is me." width="50%" height="" class="center">
-    <p>This photo was taken in Korea. How pretty is it, isn't it?</p>
-    <ul>
-        <li>Korea</li>
-        <li>Travel</li>
-        <li>Merry Christmas</li>
-    </ul>
-    <p>
-        I come from Taiwan. It is located in south Asia.</br>
-        You might heard Thailand, however it's totally different.</br>
-        We have all kind of tropical fruits. It's sound good, right?</br>
-        Hope you come to Taiwan to have a try. </br>
-    </p>
-    <button>Change user</button>
-    <script src="scripts/main.js"></script>
+    <header> <!--標題區-->
+        <div class="logo">Tian<div>
+        <nav>
+            <!--網頁的連結選項-->
+            <div class="navitem">
+                <div class="navitem_icon"></div>
+                <a class="navitem_text" href="##">Home</a>
+            </div>
+            <div class="navitem">
+                <div class="navitem_icon"></div>
+                <a class="navitem_text" href="##">About</a>
+            </div>
+            <div class="navitem">
+                <div class="navitem_icon"></div>
+                <a class="navitem_text" href="##">Service</a>
+            </div>
+            <div class="navitem">
+                <div class="navitem_icon"></div>
+                <a class="navitem_text" href="##">Blog</a>
+            </div>
+            <div class="navitem">
+                <div class="navitem_icon"></div>
+                <a class="navitem_text" href="##">Guides</a>
+            </div>
+            <div class="navitem">
+                <div class="navitem_icon"></div>
+                <a class="navitem_text" href="##">Contant</a>
+            </div>           
+        </nav>
+        <!-- <h1>Hi,I'm Tian.</br>
+            Welcome to my home.
+        </h1> -->
+        <!-- <img src="images/me.jpg" alt="This is me." width="50%" height="" class="center"> -->
+    </header>    
+
+    <article> <!--主內容區 獨立完整的內容-->
+        <section class="aboutMe">   <!-- 文章大綱 -->   
+            <p><span style="font-size: 30px; margin: 21px 0; "> This</span> photo was taken in <em><strong>Korea</strong></em>. How pretty is it, isn't it?</p>   
+            <ul>
+                <li><u>Korea</u></li>
+                <li><u>Travel</u></li>
+                <li><u><span class="highlight">Merry</span> <span class="highlight_red">Christmas</span></u></li>
+            </ul>
+            <p>Japanese example: ご飯が熱い</p>
+            <p>        
+                <b>I</b> come from <span class="highlight">Taiwan</span>. It is located in south Asia.</br>
+                You might heard Thailand, however it's totally different.</br>
+                We have all kind of tropical fruits. It's sound good, right?</br>
+                Hope you come to Taiwan to have a try. </br>
+            </p>
+            <button>Change user</button>
+        </section>
+
+        <div id="slide">
+            <img src="images/moto-1.jpg" alt="bike"></img>
+            <img src="images/moto-2.jpg" alt="bike"></img>
+            <img src="images/moto-3.jpg" alt="bike"></img>
+        </div>
+    </article>
+    
+    <script src="scripts/main.js"></script> <!-- 放底部是防止有element還未顯示而發生錯誤 -->
+    <script src="scripts/slide_img.js"></script>
 </body>
 
 </html>

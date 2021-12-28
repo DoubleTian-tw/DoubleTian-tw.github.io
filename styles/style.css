@@ -10,8 +10,30 @@ li{
 html{
     font-size: 10px;
     font-family: placeholder;
-    background-color: #43a4ff;    
+    background-color: #7dc0ff;    
 }
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    align-self: flex-end;
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    position: relative;
+}
+.navitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.navitem:hover{
+    top: -3px;    
+}
+
 h1{
     font-size: 50px;
     text-align: center;
@@ -26,8 +48,8 @@ p,li{
     letter-spacing:1px;
 }
 body{
-    width: 600px;
-    margin: 0 auto; /*1.上下 2.左右*/
+    width: auto;/*600px;*/
+    margin: 5% auto; /*1.上下 2.左右*/
     background-color: #ffffff;
     padding:10px 20px 20px 50px; /*top right btm left*/
     border: 5px double gray;
@@ -36,3 +58,12 @@ img{
     display: block;
     margin: 0 auto;
 } 
+.highlight{
+    color: green;
+}
+.highlight_red{
+    color: rgb(184, 4, 4);
+}
+
+
+
