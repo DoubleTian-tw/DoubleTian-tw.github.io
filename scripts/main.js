@@ -4,12 +4,12 @@ var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
 myImage.onclick=function(){
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/me.jpg'){
-        myImage.setAttribute('src','images/me2.jpg');        
-    }else{
-        myImage.setAttribute('src', 'images/me.jpg');
-    }
+    // let mySrc = myImage.getAttribute('src');
+    // if(mySrc === 'images/me.jpg'){
+    //     myImage.setAttribute('src','images/me2.jpg');        
+    // }else{
+    //     myImage.setAttribute('src', 'images/me.jpg');
+    // }
 }
 
 if(!localStorage.getItem('name')){
