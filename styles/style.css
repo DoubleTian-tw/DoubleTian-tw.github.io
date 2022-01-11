@@ -27,7 +27,7 @@ html{
     /* margin-right: -50%; */
 }
 section.Main{
-    border:1px solid black;
+    /* border:1px solid black; */
     width: 700px;
     margin: 0;     
     position:absolute;
@@ -37,11 +37,11 @@ section.Main{
 }
 .logo{
     align-self: flex-end;
-    font-size: 30px;
-    
+    font-size: 30px;    
     text-decoration: underline;
-    /* background-color: #464646;   */
-    /* border:1px solid black; */
+    color:#3face8;
+    text-shadow: 3px 3px 1px rgb(191, 191, 191); /*位移X 位移Y 模糊半徑 顏色*/
+    /* background-color: #464646;   */   
 }
 nav{
     display: flex;
@@ -88,7 +88,7 @@ h1{
     text-shadow: 3px 3px 1px rgb(44, 44, 44); /*位移X 位移Y 模糊半徑 顏色*/
 }
 p,li{
-    font-size:16px;
+    font-size:18px;
     line-height: 2;
     letter-spacing:1px;
 }
