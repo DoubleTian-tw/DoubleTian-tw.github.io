@@ -12,6 +12,11 @@ html{
     font-family: placeholder;
     background-color: #ffffff;    
 }
+p.title_font{
+    font-size:30px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .header_div{    
     justify-content: space-between;
     display: flex;
