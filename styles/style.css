@@ -7,6 +7,10 @@ li{
     color: rgb(250, 29, 102);
 }
 */
+nav{
+
+    
+}
 html{
     font-size: 10px;
     font-family: placeholder;
@@ -107,17 +111,45 @@ body{
 img{
     display: block;
     margin: 0 auto;
-} 
+}
+img.content-logo{
+    width:25px; 
+    height:25px; 
+    display:inline; 
+    vertical-align:middle;
+}
+
 .img-me-cut{
     height:350px;
     overflow: hidden;
     border: 1.5px solid rgb(255, 255, 255);
 }
-
 .img-me-cut img{
-    margin-top:-15%;
+    /* margin-top:-15%; */
 }
 
+#content_userlabel{
+    font-size: 18px; 
+    display:flex;
+    margin-bottom:15px;
+}
+#content_userTextBox{
+    width:300px; 
+    display:flex; 
+    margin-bottom: 15px;
+}
+/* #content_userTextBox.valid{
+    border: 2px solid green;
+}
+#content_userTextBox.invalid{    
+    border: 2px solid red;
+} */
+#content_userTextBox:valid{
+    border: 2px solid green;
+}
+#content_userTextBox:invalid{    
+    border: 2px solid red;
+}
 .highlight{
     color: green;
 }
